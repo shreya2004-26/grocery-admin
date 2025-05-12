@@ -37,6 +37,11 @@
       "type": "component",
       "repeatable": true,
       "component": "ordered-item.ordered-item"
+    },
+    "orderDate": {
+      "type": "date",
+      "required": false,
+      "default": "2024-07-18"
     }
   }
 }

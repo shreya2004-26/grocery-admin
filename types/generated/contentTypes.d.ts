@@ -851,6 +851,7 @@ export interface ApiOrderOrder extends Schema.CollectionType {
     totalOrderAmount: Attribute.Float;
     userId: Attribute.Integer;
     orderItemList: Attribute.Component<'ordered-item.ordered-item', true>;
+    orderDate: Attribute.Date & Attribute.DefaultTo<'2024-07-18'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
